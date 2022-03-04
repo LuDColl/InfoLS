@@ -1,0 +1,10 @@
+{
+  "folders": [
+    { "path": "." },
+    { "path": "src" },
+    { "path": "src/app" },
+    { "path": "src/assets" },
+    { "path": "src/environments" },
+    { "path": ".vscode" }
+  ]
+}
