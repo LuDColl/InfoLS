@@ -15,7 +15,7 @@
       },
       "root": "",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "bill",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -103,9 +103,21 @@
             ],
             "scripts": []
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "src/**/*.ts",
+              "src/**/*.html"
+            ]
+          }
         }
       }
     }
   },
-  "defaultProject": "info-ls"
+  "defaultProject": "info-ls",
+  "cli": {
+    "defaultCollection": "@angular-eslint/schematics"
+  }
 }
